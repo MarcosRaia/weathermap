@@ -23,10 +23,10 @@ function Api() {
         <div className="container">
             <h1 className="p-5 d-flex justify-content-center">Previsão do Tempo</h1>
             <div className=" p-5 d-flex justify-content-center">
-                <i className="material-icons">search</i><input style={{ width: '50%' }} value={location} onChange= {event => setLocation(event.target.value)} onKeyPress= {searchLocation} placeholder='Cidade' type='text' />
+                <i className="material-icons">search</i><input style={{ width: '35%', height: '40px' }} value={location} onChange= {event => setLocation(event.target.value)} onKeyPress= {searchLocation} placeholder='Cidade' type='text' />
             </div>
         </div>
-        <Container style={{ width: '30%' }}>
+        <Container style={{ width: '40%' }}>
             <Row>
                 <hr></hr>
                 <h1>Capitais</h1>

@@ -1,3 +1,13 @@
 body{
-  background-color: white;
+  background-color: #fb992b;
+}
+
+h1{
+  color: white;
+}
+
+.material-icons {
+  padding-top: 8px;
+  padding-right: 4px;
+  
 }
